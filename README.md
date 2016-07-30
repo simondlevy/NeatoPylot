@@ -45,9 +45,9 @@ blocking the LIDAR scan.
 The Raspberry Pi 3 has a Broadcom wifi chip onboard, saving you the hassle
 of finding a wifi adapter that supports ad-hoc networking.
 <p><li> A battery to power the onboard computer, if it doesn't have one built in.
-<a href="http://www.amazon.com/PowerGen-External-Blackberry-Sensation-Thunderbolt/dp/B005VBNYDS/ref=sr_1_1?ie=UTF8&qid=1361583034&sr=8-1&keywords=mobile+juice+pack+5200">
-This rechargeable battery</a> comes with a short USB micro cable that plugs right into the
-power port on the Pi.
+<a href="https://www.amazon.com/gp/product/B00QQYIUFG/ref=oh_aui_detailpage_o06_s00?ie=UTF8&psc=1">
+This rechargeable battery</a> provided around three hours of power for my Raspberry Pi, via
+a six-inch micro USB cable.
 <p><li> A short 
 <a href="http://www.amazon.com/gp/product/B001S0I1Z2/ref=oh_details_o00_s00_i00?ie=UTF8&psc=1">USB A to mini-B cable</a>
 to connect the onboard computer to the XV-11's
