@@ -39,38 +39,26 @@ Obviously, an XV-11.  Make sure it has the current
 An 
 <a href="http://www.amazon.com/Neato-XV-21-Allergy-Automatic-Cleaner/dp/B007JOJ9QQ">
 XV-21</a> will probably work too, but I haven't tried one.
-<br><br>
-<li> A small computer with wifi capability to mount onboard the XV-11 without
+<p><li> A small computer with wifi capability to mount onboard the XV-11 without
 blocking the LIDAR scan.
 <a href="http://www.raspberrypi.org">Raspberry Pi</a> works well for this. 
-<br><br>
-<li> A wifi dongle for the onboard computer, if it doesn't have built-in
-wifi. The 
-<a href="http://www.raspberrypi.org/downloads">Raspbian OS</a> 
-I use on my Pi supports dongles with the Ralink
-chipset, so 
-<a href="http://www.amazon.com/gp/product/B002RM08RE/ref=wms_ohs_product?ie=UTF8&psc=1">this</a>
-dongle worked right out of the box.
-<br><br>
-<li> A battery to power the onboard computer, if it doesn't have one built in.
+The Raspberry Pi 3 has a Broadcom wifi chip onboard, saving you the hassle
+of finding a wifi adapter that supports ad-hoc networking.
+<p><li> A battery to power the onboard computer, if it doesn't have one built in.
 <a href="http://www.amazon.com/PowerGen-External-Blackberry-Sensation-Thunderbolt/dp/B005VBNYDS/ref=sr_1_1?ie=UTF8&qid=1361583034&sr=8-1&keywords=mobile+juice+pack+5200">
 This rechargeable battery</a> comes with a short USB micro cable that plugs right into the
 power port on the Pi.
-<br><br>
-<li> A short 
+<p><li> A short 
 <a href="http://www.amazon.com/gp/product/B001S0I1Z2/ref=oh_details_o00_s00_i00?ie=UTF8&psc=1">USB A to mini-B cable</a>
 to connect the onboard computer to the XV-11's
 USB port.
-<br><br>
-<li> Velcro tape to keep the onboard computer (and battery) attached securely to 
+<p><li> Velcro tape to keep the onboard computer (and battery) attached securely to 
 the XV-11.
-<br><br>
-<li>A laptop computer on which to run the client program, which will talk over
+<p><li>A laptop computer on which to run the client program, which will talk over
 wifi to the server program running on the onboard computer.  I have tested
 the client on Windows, Mac OS X, and Linux, and the server on Mac OS X and 
 Linux.
-<br><br>
-<li> A PS3 gamepad controller, 
+<p><li> A PS3 gamepad controller, 
 <a href="http://www.amazon.com/Logitech-Extreme-Joystick-Silver-Black/dp/B00009OY9U">
 Logitech joystick</a>, or similar device for driving the XV-11 from the laptop. 
 The client will work without such a device, allowing you to drive using the
@@ -79,11 +67,6 @@ controller. I used an inexpensive, wired PS3 controller knockoff like
 <a href="http://www.amazon.com/Nyko-Core-Controller-PS3-Playstation-3/dp/B003G2Z4FK/ref=sr_1_1?s=videogames&ie=UTF8&qid=1361584521&sr=1-1&keywords=ps3+wired+controller">
 this one</a>.
 </ul>
-
-You can see photos of my Raspberry-Pi(mped-out) XV-11 
-<a href="XV11_Raspberry_Pi_1.JPG">here</a> 
-and 
-<a href="XV11_Raspberry_Pi_2.JPG">here</a> .
 
 <h3>Software Checklist</h3>
 
