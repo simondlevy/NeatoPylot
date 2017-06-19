@@ -118,7 +118,7 @@ Of course, you will need to run this script using <tt><b>sudo</b></tt>.
 If you <tt><b>sudo</b></tt> the script from <tt><b>/etc/rc.local</b></tt>, you can get
 it to run automatically every time you boot your Pi:
 <pre>
-sudo /home/pi/neatopylot/neatopylot_wifistart.py
+sudo /home/pi/NeatoPylot/neatopylot_wifistart.py
 </pre>
 You can then follow the directions 
 <a href="http://wiki.gumstix.org/index.php?title=Creating_an_Ad-hoc_Wireless_Network#Running_DHCP_Server_on_Ad-hoc_Network">
