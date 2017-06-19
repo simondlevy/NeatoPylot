@@ -120,12 +120,8 @@ it to run automatically every time you boot your Pi:
 <pre>
 python /home/pi/NeatoPylot/neatopylot_wifistart.py
 </pre>
-You can then follow the directions 
-<a href="http://wiki.gumstix.org/index.php?title=Creating_an_Ad-hoc_Wireless_Network#Running_DHCP_Server_on_Ad-hoc_Network">
-here</a>. 
-to get your Pi to serve up a dhcp
-network. (These directions are for a Gumstix computer, but they worked for my
-Pi too.)
+You can then follow the instructions in this <a href="https://github.com/simondlevy/RPiAdHocWiFi">repository</a>
+to get your Pi to serve up a dhcp network. 
 <br><br>
 If the onboard computer is a Mac, I would follow the procedure
 described 
