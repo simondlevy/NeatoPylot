@@ -251,12 +251,12 @@ def task(gui):
             if gui.controller.get_button(k):
                 if k == AUTOPILOT_BUTTON:
                     gui.autopilot = True
-                else:
-                    gui.autopilot = False
+                #else:
+                #    gui.autopilot = False
         
         # Grab joystick axis values (forward comes in negative)
-        axis_x =   gui.controller.get_axis(FIRST_AXIS)
-        axis_y =  -gui.controller.get_axis(FIRST_AXIS+1)
+        axis_x = deadbandFilter(gui.controller.get_axis(FIRST_AXIS))
+        axis_y = deadbandFilter(-gui.controller.get_axis(FIRST_AXIS+1))
         
         # Axes disable autopilot
         if axis_x or axis_y:
@@ -308,10 +308,6 @@ def task(gui):
             
     # Update the title to report autopilot as needed
     gui.setTitle(title)
-
-    # Deadband-filter the axis values to avoid noise
-    axis_x = deadbandFilter(axis_x)
-    axis_y = deadbandFilter(axis_y)
     
     # Use axis values to drive robot
     gui.client.drive(axis_x, axis_y)
