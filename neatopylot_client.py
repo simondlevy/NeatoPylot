@@ -227,6 +227,12 @@ class LIDAR_GUI(breezypythongui.EasyFrame):
 
     def quit(self, event):
         self.client.close()
+
+# Deadband filter for noisy controller
+def deadbandFilter(value):
+    
+    return 0 if abs(value) < .01 else value
+        
         
 # Timer task for gui update
 def task(gui):
@@ -302,6 +308,10 @@ def task(gui):
             
     # Update the title to report autopilot as needed
     gui.setTitle(title)
+
+    # Deadband-filter the axis values to avoid noise
+    axis_x = deadbandFilter(axis_x)
+    axis_y = deadbandFilter(axis_y)
     
     # Use axis values to drive robot
     gui.client.drive(axis_x, axis_y)
